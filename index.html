@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TIC-TAC-TOE</title>
+</head>
+<body>
+    <div class="bienvenidos">
+        <h1 class="texto-bienvenida">Bienvenidos a</h1>
+        <h1 class="nombre-juego">TIC-TAC-TOE</h1>
+        <h2 class="creador">Creado por: <a href="https://www.linkedin.com/in/ignacio-nu%C3%B1ez-valcarce-7b870a211/">Ignacio Nuñez Valcarce</a></h2>
+        <button class="comenzar">Comenzar</button>
+    </div>
+    <div class="seleccion">
+        <button class="nueva-partida">Nueva Partida</button>
+        <button class="volver-home">Volver a la página principal</button>
+    </div> 
+    <div class="jugadores-container">
+        <button class="volver-prim-pag"> - </button>
+        <h1 class="h1-info-jugadores">Información de los jugadores</h1>
+        <form action="#" class="info-jugadores">
+            <label class="jugador-name">
+                Nombre del primer jugador: 
+                <input type="text" class="nombre-uno" required>
+            </label>
+            <label class="jugador-name">
+                Nombre del segundo jugador: 
+                <input type="text" class="nombre-dos" required>
+            </label>
+            <input type="submit" value="¡Listo!" class="btn-name-jugadores">
+        </form>
+    </div>
+    <div class="contenedor-general">
+        <button class="exit-game"></button>
+        <h1 class="nombre-juego-dos">TIC-TAC-TOE</h1>
+        <div id="grid-container">
+            <div class="cajas A1">A1</div>
+            <div class="cajas B1">B1</div>
+            <div class="cajas C1">C1</div>
+            <div class="cajas A2">A2</div>
+            <div class="cajas B2">B2</div>
+            <div class="cajas C2">C2</div>
+            <div class="cajas A3">A3</div>
+            <div class="cajas B3">B3</div>
+            <div class="cajas C3">C3</div>
+        </div>
+        <h2 class="texto-turno-jugador">Es el turno de </h2>
+    </div>
+    <div class="primer-pop-up">
+        <h1 class="texto-ganador">Ha ganado: </h1>
+        <button class="avanzar-pop-up">Continuar</button>
+    </div>
+    <div class="segundo-pop-up">
+        <h1 class="texto-seguir">¿Desea jugar nuevamente?</h1>
+        <div class="cont-button">
+            <button class="btnPlayAgain">SÍ</button>
+            <button class="exit">NO</button>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
